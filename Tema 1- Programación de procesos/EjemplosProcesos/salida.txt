@@ -1,0 +1,24 @@
+Microsoft Windows [Versi¢n 10.0.19043.1165]
+(c) Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\a20estefaniapc\eclipse-workspace\EjemplosProcesos>MKDIR NUEVO
+
+C:\Users\a20estefaniapc\eclipse-workspace\EjemplosProcesos>CD NUEVO
+
+C:\Users\a20estefaniapc\eclipse-workspace\EjemplosProcesos\NUEVO>ECHO CREO FICHERO > Mifichero.txt
+
+C:\Users\a20estefaniapc\eclipse-workspace\EjemplosProcesos\NUEVO>DIR
+ El volumen de la unidad C no tiene etiqueta.
+ El n£mero de serie del volumen es: 6E91-4DBA
+
+ Directorio de C:\Users\a20estefaniapc\eclipse-workspace\EjemplosProcesos\NUEVO
+
+15/10/2021  18:19    <DIR>          .
+15/10/2021  18:19    <DIR>          ..
+15/10/2021  18:28                15 Mifichero.txt
+               1 archivos             15 bytes
+               2 dirs  58.776.707.072 bytes libres
+
+C:\Users\a20estefaniapc\eclipse-workspace\EjemplosProcesos\NUEVO>DIRR
+
+C:\Users\a20estefaniapc\eclipse-workspace\EjemplosProcesos\NUEVO>¨M s? 

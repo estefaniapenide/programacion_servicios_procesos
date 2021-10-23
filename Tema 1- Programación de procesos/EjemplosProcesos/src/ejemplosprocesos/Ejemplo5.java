@@ -1,19 +1,22 @@
+package ejemplosprocesos;
+
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.Scanner;
+import java.io.OutputStream;
 
-public class Programa {
+public class Ejemplo5 {
 
 	public static void main(String[] args) throws IOException {
-		
 		File directorio = new File(".\\bin");
-		
-		ProcessBuilder pb = new ProcessBuilder("java","LeerNombre","pepe");
+		ProcessBuilder pb = new ProcessBuilder("java","ejemplosprocesos.EjemploLectura");
 		pb.directory(directorio);
+		
 		Process p = pb.start();
 		
-		
+		OutputStream os = p.getOutputStream();
+		os.write("Hola Manuel\n".getBytes());
+		os.flush();
 		
 		try {
 			InputStream is = p.getInputStream();
@@ -35,11 +38,8 @@ public class Programa {
 		}catch(InterruptedException e) {		
 			e.printStackTrace();
 		}
-
-	}
-		
 		
 
 	}
-	
-	
+
+}
