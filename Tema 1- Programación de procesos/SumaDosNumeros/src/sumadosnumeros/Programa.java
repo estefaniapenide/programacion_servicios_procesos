@@ -20,7 +20,7 @@ public class Programa {
 		
 		OutputStream os = p.getOutputStream();
 		os.write("2\n".getBytes());
-		os.write("2\n".getBytes());
+		//os.write("2\n".getBytes());
 		os.flush();
 	
 		
