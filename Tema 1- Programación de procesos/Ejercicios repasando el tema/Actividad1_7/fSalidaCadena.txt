@@ -1,0 +1,2 @@
+Introduzca una cadena de texto: 
+Cadena escrita: Holaaaaaaa
