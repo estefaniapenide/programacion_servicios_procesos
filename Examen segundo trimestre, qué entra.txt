@@ -1,0 +1,1 @@
+Introduccion a los hilos, que son, difff entre hilos y procesos, entre thead y runnable, NO aplets, estado de los hilos, maneras de parar un hilo (variables booleanas (hay otras obsoletas)), interrup, synchronyzed

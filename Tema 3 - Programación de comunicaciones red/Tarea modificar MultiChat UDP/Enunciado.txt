@@ -1,0 +1,1 @@
+Realizar una modificación en el código adjunto para que, al conectarse un nuevo cliente, reciba todos los mensajes enviados hasta el momento.

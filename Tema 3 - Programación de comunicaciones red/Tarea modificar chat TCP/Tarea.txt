@@ -1,0 +1,1 @@
+Modificar la aplicación adjunta para que permita realizar más conexiones de clientes aunque llegue al límite, considerando las desconexiones que se vayan realizando.

@@ -1,0 +1,12 @@
+Enunciado 1:Realiza un programa cliente que lea un entero por teclado y se lo envíe a un programa servidor que le devolverá el doble del número.
+El cliente tiene qu escribir en al consola tanto el número enviado como el doble recibido.
+
+ENUNCIADO2:ENVIAR Y RECIBIR OBJETO
+
+Enunciado 3:
+Realizar una comunicación cliente-servidor, el protocolo de transporte que usremos será UDP.
+Realiza un programa cliente-servidor que solicite al usuario (parte cliente) un usuario y contraseña.
+El servidor recibirá esa información y se encargará de comprarla con dos valores de usuario y contraseña
+predeterminados (por ejemplo, "alumno" y "java"), guardados en dos variables.
+El programa informará por consola (en la del servidor) de la coincidencia o disparidad de los datos
+introducidos por el usuario con los mantenidos en esas dos variables.
